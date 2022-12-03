@@ -2,14 +2,27 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Header from "./components/Header";
 
+import Home from "./containers/Home";
+import Donate from "./containers/Donate";
+import Contact from "./containers/Contact";
+import About from "./containers/About";
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Home Page</div>,
+    element: <Home />,
   },
   {
     path: "/about",
-    element: <div>About</div>,
+    element: <About />,
+  },
+  {
+    path: "/donate",
+    element: <Donate />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
@@ -18,7 +31,7 @@ const App = () => {
     <>
       <Header />
 
-      <main className="bg-third h-full w-full">
+      <main className="h-full w-full">
         <RouterProvider router={router} />
       </main>
     </>
