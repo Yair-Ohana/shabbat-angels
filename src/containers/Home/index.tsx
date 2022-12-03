@@ -36,7 +36,7 @@ const Home = () => {
         <ContentBox
           title="Content"
           content="Content"
-          backgroundColor="bg-gray"
+          backgroundColor="bg-lightPink"
           width="w-1/3"
           height="h-[550px]"
         />
