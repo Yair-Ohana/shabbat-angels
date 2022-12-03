@@ -15,12 +15,13 @@ const Header = () => {
           }
         )}
       >
-        <p className="mr-4">Shabbat Angels</p>
+        <p className="mr-12 text-xl font-bold">Shabbat Angels</p>
 
-        <p>Link</p>
-        <p>Link</p>
-        <p>Link</p>
-        <p>Link</p>
+        <div className="flex w-52 items-center justify-between">
+          <p>About</p>
+          <p>Donate</p>
+          <p>Contact</p>
+        </div>
       </div>
     </header>
   );

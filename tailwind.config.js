@@ -9,6 +9,7 @@ module.exports = {
         lightBlue: "#D7ECFE",
         gray: "#dcdfe2",
         falcon: "#F1F4ED",
+        lightPink: "#FFD4CE",
       },
     },
   },
