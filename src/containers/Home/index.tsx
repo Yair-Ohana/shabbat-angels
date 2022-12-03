@@ -49,6 +49,23 @@ const Home = () => {
         />
       </div>
 
+      <div className="w-full h-[200px] bg-gray  px-30 flex items-center justify-center">
+        <div className="flex w-4/6 justify-between items-center">
+          <div className="flex flex-col justify-center items-center text-[24px]">
+            <p>350</p>
+            <p className="font-bold">Statistics</p>
+          </div>
+          <div className="flex flex-col justify-center items-center text-[24px]">
+            <p>350</p>
+            <p className="font-bold">Statistics</p>
+          </div>
+          <div className="flex flex-col justify-center items-center text-[24px]">
+            <p>350</p>
+            <p className="font-bold">Statistics</p>
+          </div>
+        </div>
+      </div>
+
       <div className="w-full h-[800px] bg-falcon pt-40 pl-14">
         <p className="text-[70px]">Content Content Content</p>
         <p className="text-[70px]">Content Content</p>
