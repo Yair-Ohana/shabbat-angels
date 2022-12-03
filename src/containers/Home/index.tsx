@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <div className="w-full">
-      <div className="w-full h-[1200px] bg-lightBlue pt-40 pl-10">
+      <div className="w-full h-[1200px] bg-lightBlue pt-40 pl-14">
         <p className="text-[70px]">
           Content Content Content
           <TextTransition className="inline" springConfig={presets.gentle}>
@@ -25,31 +25,34 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="flex w-full">
+      <div className="flex w-full my-20">
         <ContentBox
           title="Content"
           content="Content"
           backgroundColor="bg-falcon"
           width="w-1/3"
-          height="h-[550px]"
+          height="h-[400px]"
         />
         <ContentBox
           title="Content"
           content="Content"
           backgroundColor="bg-lightPink"
           width="w-1/3"
-          height="h-[550px]"
+          height="h-[400px]"
         />
         <ContentBox
           title="Content"
           content="Content"
           backgroundColor="bg-lightBlue"
           width="w-1/3"
-          height="h-[550px]"
+          height="h-[400px]"
         />
       </div>
 
-      <div className="w-full h-[1200px] bg-falcon"></div>
+      <div className="w-full h-[800px] bg-falcon pt-40 pl-14">
+        <p className="text-[70px]">Content Content Content</p>
+        <p className="text-[70px]">Content Content</p>
+      </div>
     </div>
   );
 };
