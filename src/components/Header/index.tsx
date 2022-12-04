@@ -1,5 +1,6 @@
 import clsx from "clsx";
 
+import Logo from "./logo";
 import useWindowPosition from "../../hooks/useWindowPosition";
 
 const Header = () => {
@@ -15,9 +16,11 @@ const Header = () => {
           }
         )}
       >
-        <p className="mr-12 text-xl font-bold">Shabbat Angels</p>
+        <div className="ml-1 translate-y-[2px]">
+          <Logo />
+        </div>
 
-        <div className="flex w-52 items-center justify-between">
+        <div className="flex w-52 items-center justify-between ml-10">
           <p>About</p>
           <p>Donate</p>
           <p>Contact</p>
