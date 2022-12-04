@@ -56,7 +56,7 @@ const Home = () => {
             <p className="font-bold">Statistics</p>
           </div>
           <div className="flex flex-col justify-center items-center text-[24px]">
-            <p>350</p>
+            <p>250</p>
             <p className="font-bold">Statistics</p>
           </div>
           <div className="flex flex-col justify-center items-center text-[24px]">
