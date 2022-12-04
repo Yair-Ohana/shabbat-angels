@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c688321f.css",
-    "main.js": "/static/js/main.99ff217d.js",
-    "static/js/787.e0d4314e.chunk.js": "/static/js/787.e0d4314e.chunk.js",
-    "index.html": "/index.html",
-    "main.c688321f.css.map": "/static/css/main.c688321f.css.map",
-    "main.99ff217d.js.map": "/static/js/main.99ff217d.js.map",
-    "787.e0d4314e.chunk.js.map": "/static/js/787.e0d4314e.chunk.js.map"
+    "main.css": "/github.io/shabbat-angels/static/css/main.c688321f.css",
+    "main.js": "/github.io/shabbat-angels/static/js/main.5c49ae89.js",
+    "static/js/787.e0d4314e.chunk.js": "/github.io/shabbat-angels/static/js/787.e0d4314e.chunk.js",
+    "index.html": "/github.io/shabbat-angels/index.html",
+    "main.c688321f.css.map": "/github.io/shabbat-angels/static/css/main.c688321f.css.map",
+    "main.5c49ae89.js.map": "/github.io/shabbat-angels/static/js/main.5c49ae89.js.map",
+    "787.e0d4314e.chunk.js.map": "/github.io/shabbat-angels/static/js/787.e0d4314e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c688321f.css",
-    "static/js/main.99ff217d.js"
+    "static/js/main.5c49ae89.js"
   ]
 }
