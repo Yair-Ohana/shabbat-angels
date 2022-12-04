@@ -52,7 +52,7 @@ const Home = () => {
       <div className="w-full h-[200px] bg-gray  px-30 flex items-center justify-center">
         <div className="flex md:w-4/6 w-full justify-between items-center px-5">
           <div className="flex flex-col justify-center items-center text-[24px]">
-            <p>350</p>
+            <p>150</p>
             <p className="font-bold">Statistics</p>
           </div>
           <div className="flex flex-col justify-center items-center text-[24px]">
