@@ -10,6 +10,7 @@ module.exports = {
         gray: "#dcdfe2",
         falcon: "#F1F4ED",
         lightPink: "#FFD4CE",
+        darkPink: "#C4BCC3",
       },
     },
   },
