@@ -16,8 +16,8 @@ const Home = () => {
   return (
     <div className="w-full">
       <div className="w-full h-[1200px] bg-lightBlue pt-40 pl-14">
-        <div className="text-[70px]">
-          Content Content Content
+        <div className="text-[30px] md:text-[70px]">
+          Content Content
           <TextTransition className="inline" springConfig={presets.gentle}>
             <span>{TEXTS[textIndex % TEXTS.length]}</span>
           </TextTransition>
@@ -50,7 +50,7 @@ const Home = () => {
       </div>
 
       <div className="w-full h-[200px] bg-gray  px-30 flex items-center justify-center">
-        <div className="flex w-4/6 justify-between items-center">
+        <div className="flex md:w-4/6 w-full justify-between items-center px-5">
           <div className="flex flex-col justify-center items-center text-[24px]">
             <p>350</p>
             <p className="font-bold">Statistics</p>
@@ -66,9 +66,10 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-full h-[800px] bg-falcon pt-40 pl-14">
-        <p className="text-[70px]">Content Content Content</p>
-        <p className="text-[70px]">Content Content</p>
+      <div className="w-full h-[800px] bg-falcon pt-40 pl-14 text-[30px] md:text-[70px]">
+        <p>Content Content </p>
+        <p>Content Content </p>
+        <p>Content Content</p>
       </div>
     </div>
   );
