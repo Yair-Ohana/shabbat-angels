@@ -15,7 +15,7 @@ const App = () => {
 
       <main className="h-full w-full">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/shabbat-angels" element={<Home />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
