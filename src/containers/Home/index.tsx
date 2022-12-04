@@ -16,35 +16,35 @@ const Home = () => {
   return (
     <div className="w-full">
       <div className="w-full h-[1200px] bg-lightBlue pt-40 pl-14">
-        <p className="text-[70px]">
+        <div className="text-[70px]">
           Content Content Content
           <TextTransition className="inline" springConfig={presets.gentle}>
             <span>{TEXTS[textIndex % TEXTS.length]}</span>
           </TextTransition>
           Content Content
-        </p>
+        </div>
       </div>
 
-      <div className="flex w-full my-20">
+      <div className="flex md:flex-row flex-col w-full my-20 items-center justify-center">
         <ContentBox
           title="Content"
           content="Content"
           backgroundColor="bg-falcon"
-          width="w-1/3"
+          width="md:w-1/3 w-5/6"
           height="h-[400px]"
         />
         <ContentBox
           title="Content"
           content="Content"
           backgroundColor="bg-lightPink"
-          width="w-1/3"
+          width="md:w-1/3 w-5/6"
           height="h-[400px]"
         />
         <ContentBox
           title="Content"
           content="Content"
           backgroundColor="bg-lightBlue"
-          width="w-1/3"
+          width="md:w-1/3 w-5/6"
           height="h-[400px]"
         />
       </div>
