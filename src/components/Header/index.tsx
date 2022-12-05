@@ -20,7 +20,7 @@ const Header = () => {
             }
           )}
         >
-          <div className="ml-1 translate-y-[2px]">
+          <div className="ml-1 translate-y-[4px]">
             <Logo />
           </div>
 
@@ -33,14 +33,14 @@ const Header = () => {
           <div className="md:invisible visible">
             {isMenuOpen ? (
               <button
-                className="text-[25px]"
+                className="text-[25px] select-none"
                 onClick={() => setIsMenuOpen(false)}
               >
                 X
               </button>
             ) : (
               <button
-                className="space-y-2 cursor-pointer flex items-center justify-center flex-col"
+                className="space-y-2 cursor-pointer flex items-center justify-center flex-col select-none"
                 onClick={() => setIsMenuOpen(true)}
               >
                 <div className="w-8 h-0.5 bg-black"></div>
@@ -55,7 +55,7 @@ const Header = () => {
       {isMenuOpen && (
         <div
           className={
-            "fixed flex z-20 top-0 right-0 left-0 bottom-0 bg-white items-center justify-center"
+            "fixed flex z-20 top-0 right-0 left-0 bottom-0 bg-white items-center justify-center "
           }
         >
           <nav className="flex flex-col h-36 items-center justify-between text-xl">
