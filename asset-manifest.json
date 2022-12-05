@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shabbat-angels/static/css/main.c688321f.css",
-    "main.js": "/shabbat-angels/static/js/main.154f4830.js",
+    "main.css": "/shabbat-angels/static/css/main.f68df6a9.css",
+    "main.js": "/shabbat-angels/static/js/main.7605e0b6.js",
     "static/js/787.e0d4314e.chunk.js": "/shabbat-angels/static/js/787.e0d4314e.chunk.js",
     "index.html": "/shabbat-angels/index.html",
-    "main.c688321f.css.map": "/shabbat-angels/static/css/main.c688321f.css.map",
-    "main.154f4830.js.map": "/shabbat-angels/static/js/main.154f4830.js.map",
+    "main.f68df6a9.css.map": "/shabbat-angels/static/css/main.f68df6a9.css.map",
+    "main.7605e0b6.js.map": "/shabbat-angels/static/js/main.7605e0b6.js.map",
     "787.e0d4314e.chunk.js.map": "/shabbat-angels/static/js/787.e0d4314e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c688321f.css",
-    "static/js/main.154f4830.js"
+    "static/css/main.f68df6a9.css",
+    "static/js/main.7605e0b6.js"
   ]
 }
